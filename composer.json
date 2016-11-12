@@ -1,0 +1,12 @@
+{
+  "name": "root/gcs-service",
+  "require": {
+    "google/cloud": "^0.11.1",
+    "videlalvaro/php-amqplib": "2.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    }
+  }
+}
